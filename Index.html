@@ -1,0 +1,186 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Next Level Fútbol Campus Daimús</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            background: linear-gradient(180deg, #e9f9f0 0%, #ffffff 100%);
+            color: #222;
+            scroll-behavior: smooth;
+        }
+        header {
+            background: linear-gradient(135deg, #00794c, #0c3c78);
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        }
+        header h1 {
+            font-size: 2.8em;
+            margin: 0;
+            text-shadow: 2px 2px 6px rgba(0,0,0,0.3);
+        }
+        header p {
+            font-size: 1.3em;
+            margin-top: 10px;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 12px 30px;
+            background-color: #ffe45c;
+            color: #0c3c78;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .btn:hover {
+            background-color: #0c3c78;
+            color: white;
+            transform: scale(1.05);
+        }
+        nav {
+            background-color: #004b2e;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 12px 0;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 8px 15px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        nav a:hover {
+            color: #ffe45c;
+            transform: scale(1.1);
+        }
+        section {
+            padding: 70px 20px;
+            max-width: 1100px;
+            margin: auto;
+        }
+        section h2 {
+            color: #00794c;
+            text-align: center;
+            font-size: 2em;
+            margin-bottom: 25px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+        }
+        .card {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            padding: 25px;
+            text-align: center;
+            transition: 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 18px rgba(0,0,0,0.2);
+        }
+        .gallery img {
+            width: 100%;
+            border-radius: 15px;
+            transition: 0.4s;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+        }
+        footer {
+            background-color: #004b2e;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            margin-top: 60px;
+        }
+        @media (max-width: 768px) {
+            header h1 { font-size: 2em; }
+            header p { font-size: 1em; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Next Level Fútbol Campus Daimús</h1>
+    <p>Entrena, disfruta y alcanza tu siguiente nivel ⚽</p>
+    <a href="#inscripcion" class="btn">¡Inscríbete ahora!</a>
+</header>
+
+<nav>
+    <a href="#quienes">Quiénes somos</a>
+    <a href="#horarios">Horarios</a>
+    <a href="#inscripcion">Inscripción</a>
+    <a href="#galeria">Galería</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+
+<section id="quienes">
+    <h2>Quiénes somos</h2>
+    <p style="text-align:center;">En <strong>Next Level Fútbol Campus Daimús</strong> formamos futbolistas y educamos personas. Nuestro objetivo es ayudar a cada niño y niña a mejorar su técnica,
+    disfrutar del deporte y aprender valores como el respeto, el esfuerzo y el trabajo en equipo. Contamos con entrenadores titulados y un ambiente familiar que convierte el aprendizaje en una experiencia inolvidable.</p>
+    <div class="grid">
+        <div class="card"><h3>⚽ Entrenadores titulados</h3><p>Profesionales apasionados y formados para guiar a cada jugador hacia su mejor versión.</p></div>
+        <div class="card"><h3>🌅 Entorno ideal</h3><p>Daimús ofrece un clima perfecto, playa cercana y espacios para disfrutar del deporte al aire libre.</p></div>
+        <div class="card"><h3>🤝 Valores y convivencia</h3><p>Enseñamos a ganar con humildad y perder con respeto, fomentando la unión del grupo.</p></div>
+    </div>
+</section>
+
+<section id="horarios">
+    <h2>Fechas y horarios</h2>
+    <p>📅 <strong>Semanas disponibles:</strong></p>
+    <ul>
+        <li>Semana 1: 1 – 5 de julio</li>
+        <li>Semana 2: 8 – 12 de julio</li>
+        <li>Semana 3: 15 – 19 de julio</li>
+    </ul>
+    <p>🕘 <strong>Horario:</strong> de 9:00 a 13:00 h<br>
+    📍 <strong>Ubicación:</strong> Campo Municipal de Daimús y zona de playa</p>
+</section>
+
+<section id="inscripcion">
+    <h2>Inscripción</h2>
+    <p>Rellena el formulario de inscripción y asegura tu plaza para vivir el verano más futbolero. Incluye equipación, seguro, diploma y actividades diarias.</p>
+    <p style="text-align:center;"><a href="https://forms.google.com" target="_blank" class="btn">Ir al formulario</a></p>
+</section>
+
+<section id="galeria">
+    <h2>Galería</h2>
+    <div class="gallery grid">
+        <img src="https://images.unsplash.com/photo-1509021436665-8f07dbf5bf1d" alt="Entrenamiento de fútbol">
+        <img src="https://images.unsplash.com/photo-1517649763962-0c623066013b" alt="Niños jugando al fútbol">
+        <img src="https://images.unsplash.com/photo-1521412644187-c49fa049e84d" alt="Campo de fútbol">
+        <img src="https://images.unsplash.com/photo-1526232761682-d26e03ac148e" alt="Balón sobre césped">
+    </div>
+</section>
+
+<section id="contacto">
+    <h2>Contacto</h2>
+    <p style="text-align:center;">
+        📧 <strong>Correo:</strong> nextlevelfutbolcampus@gmail.com<br>
+        📍 <strong>Ubicación:</strong> Daimús (La Safor, Valencia)<br>
+        📸 <strong>Redes sociales:</strong> @nextlevelfutbolcampus
+    </p>
+</section>
+
+<footer>
+    <p>© 2026 Next Level Fútbol Campus Daimús | Diseñado con pasión ⚽</p>
+</footer>
+
+</body>
+</html>
